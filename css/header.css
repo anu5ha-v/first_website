@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    background-color: #05386B;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.logo {
+    background-image: url(images/logo.avif);
+    background-size: cover;
+    height: 90px;
+    width: 90px;
+    margin-left: 15px;
+    border-radius: 30%;
+}
+
+.click {
+    color: white;
+    text-decoration: none;
+}
+
+.click:hover {
+    color: gray;
+}
+
+.inline {
+    display: flex;
+}
+
+.link {
+    margin: 40px;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 30px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}

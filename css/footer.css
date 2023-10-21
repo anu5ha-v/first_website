@@ -1,0 +1,66 @@
+footer {
+    background-color: #e6f1d3e4;
+}
+
+.footer1 {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    margin: 30px 150px;
+}
+
+.img1 {
+    background-image: url("images/footer1.avif");
+    background-size: cover;
+    width: 190px;
+    height: 151px;
+}
+
+.img2 {
+    background-image: url("images/footer2.avif");
+    background-size: cover;
+    width: 200px;
+    height: 118px;
+}
+
+.sub {
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+
+.lastline {
+    display: flex;
+    padding-top: 20px;
+    align-items: top;
+    justify-content: space-evenly;
+}
+
+.mail {
+    width: 90%;
+    display: flex;
+}
+
+#send {
+    width: 358px;
+    font-size: 16px;
+    margin-bottom: 100px;
+    height: 45px;
+}
+
+#btn {
+    width: 44px;
+    height: 47px;
+    cursor: pointer;
+}
+
+.insta {
+    font-size: 30px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+}

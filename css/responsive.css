@@ -1,0 +1,85 @@
+@media only screen and (max-width: 746px) {
+    .nav-logo {
+
+        width: 50%
+    }
+
+    .logo {
+        height: 60px;
+        width: 60px;
+    }
+
+    .inline {
+        flex-direction: column;
+    }
+
+    .link {
+        margin: 6px;
+        padding: 2px;
+        text-align: end;
+    }
+
+    .links {
+        margin: 20px;
+        width: 50%;
+
+    }
+
+    .navbar {
+
+        justify-content: right;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 45px;
+        margin: 40px;
+    }
+
+    .allbox {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    .box {
+        height: fit-content;
+        width: 250px;
+    }
+
+    .footer1 {
+        flex-direction: column;
+    }
+
+    .item {
+        margin: 10px;
+    }
+
+    .sub {
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    #send {
+        width: 250px;
+        font-size: 10px;
+        margin-bottom: 60px;
+        height: 30px;
+    }
+
+    #btn {
+        width: 30px;
+        height: 35px;
+        cursor: pointer;
+    }
+
+    .instaout {
+        display: flex;
+        align-items: end;
+    }
+
+    .insta {
+        font-size: 25px;
+    }
+}
